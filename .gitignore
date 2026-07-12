@@ -1,0 +1,22 @@
+#Entornos virtuales
+.venv/
+
+#Python
+__pycache__/
+*.pyc
+
+#PyInstaller
+build/
+dist/
+*.spec
+
+#VScode
+.vscode/
+
+#Sistema
+.DS_Store
+Thumbs.db
+
+#Ejecutables
+Metodos-Numericos
+Metodos-Numericos.exe
