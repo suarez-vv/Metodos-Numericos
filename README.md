@@ -2,11 +2,11 @@
 
 Aplicación desarrollada en **Python** para la resolución de problemas matemáticos mediante métodos numéricos clásicos.
 
-El proyecto implementa métodos para la aproximación de raíces de ecuaciones y la solución de sistemas de ecuaciones lineales, incorporando una interfaz gráfica desarrollada con **PySide6**, validación de entradas, cálculo simbólico mediante **SymPy** y generación de ejecutables multiplataforma.
+El proyecto implementa algoritmos para la aproximación de raíces de ecuaciones y la solución de sistemas de ecuaciones lineales, permitiendo visualizar iteraciones, errores aproximados y criterios de paro a través de una interfaz gráfica desarrollada con **PySide6**.
 
-## Objetivo
+La aplicación integra métodos cerrados y abiertos para el cálculo de raíces, así como técnicas iterativas y de factorización para resolver sistemas lineales. Además, incorpora validación de entradas, procesamiento simbólico mediante **SymPy** y herramientas que facilitan el análisis paso a paso de los procedimientos numéricos utilizados.
 
-Proporcionar una herramienta interactiva capaz de aplicar distintos métodos numéricos para la aproximación de soluciones, permitiendo visualizar iteraciones, errores aproximados y criterios de convergencia de forma sencilla y didáctica.
+Con el objetivo de facilitar su distribución y uso en distintos entornos, el proyecto incluye soporte para generación de ejecutables en Linux y Windows, manejo de dependencias mediante entornos virtuales y scripts de automatización para instalación y empaquetado.
 
 ## Tecnologías Utilizadas
 
