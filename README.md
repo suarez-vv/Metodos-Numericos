@@ -8,6 +8,11 @@ La aplicación integra métodos cerrados y abiertos para el cálculo de raíces,
 
 Con el objetivo de facilitar su distribución y uso en distintos entornos, el proyecto incluye soporte para generación de ejecutables en Linux y Windows, manejo de dependencias mediante entornos virtuales y scripts de automatización para instalación y empaquetado.
 
+<p align="center">
+    <img src="screenshots/menu_principal.png" alt="menu_principal" width="50%"><br>
+    <em>Figura 1. Menú principal de la aplicación.</em><br>
+</p>
+
 ## Tecnologías Utilizadas
 
 - Python
@@ -31,6 +36,11 @@ Con el objetivo de facilitar su distribución y uso en distintos entornos, el pr
 - Derivación simbólica mediante SymPy.
 - Cálculo de error aproximado relativo (Ea).
 - Criterios de paro configurables.
+
+<p align="center">
+    <img src="screenshots/raices_ecuaciones.png" alt="raices_ecuaciones" width="50%"><br>
+    <em>Figura 2. Selección de métodos para el cálculo de raíces de ecuaciones.</em><br>
+</p>
 
 ### Sistemas de Ecuaciones
 
@@ -62,16 +72,33 @@ Con el objetivo de facilitar su distribución y uso en distintos entornos, el pr
 - Newton-Raphson.
 - Secante.
 
+<p align="center">
+    <img src="screenshots/ejemplo_secante.png" alt="ejemplo_secante" width="50%"><br>
+    <em>Figura 3. Configuración y ejecución del método de la Secante.</em><br>
+</p>
+
+
 ### Sistemas de Ecuaciones
 
 - Jacobi.
 - Gauss-Seidel.
 - Doolittle.
 
+<p align="center">
+    <img src="screenshots/ejemplo_jacobi.png" alt="ejemplo_jacobi" width="50%"><br>
+    <em>Figura 4. Resolución de sistemas lineales mediante el método de Jacobi.</em><br>
+</p>
+
 ## Estructura del Proyecto
 
 ```text
 Metodos-Numericos/
+│
+├── screenshots/
+│   ├── menu_principal.png
+│   ├── raices_ecuaciones.png
+│   ├── ejemplo_secante.png
+│   └── ejemplo_jacobi.png
 │
 ├── images/
 │   ├── App.png
